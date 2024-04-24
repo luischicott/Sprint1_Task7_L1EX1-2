@@ -23,7 +23,8 @@ public class RemoteWorker extends Worker {
     
     @Override
     public String toString() {
-    	return "name: " + super.getName() + "| lastname: " + super.getLastname() + " | hour price: " + super.getHourPrice(); 
+    	return "name: " + super.getName() + "| lastname: " + super.getLastname() + " | hour price: " + super.getHourPrice() 
+    	+ "| Internet price: " + INTERNET_RATE ; 
     }
 
 }

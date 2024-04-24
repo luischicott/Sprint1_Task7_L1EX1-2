@@ -2,11 +2,10 @@ package n1exercici1;
 
 public class OnSiteWorker extends Worker {
 	
-	private static int benzina; 
+	private static int benzina = 150; 
     
-    public OnSiteWorker(String name, String lastname, int hourPrice, int benzina) {
+    public OnSiteWorker(String name, String lastname, int hourPrice) {
         super(name, lastname, hourPrice);
-        this.benzina = benzina; 
     }
     
     @Override

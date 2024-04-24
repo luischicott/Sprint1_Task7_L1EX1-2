@@ -8,17 +8,17 @@ public class S1_T7_N1EX1_Luis_Chicott {
 
 		//Ejercicio 1
 		RemoteWorker worker1 = new RemoteWorker("Luis", "Chicott", 20);
-		OnSiteWorker worker2 = new OnSiteWorker("Eliécer", "Chicott", 30, 150);
+		OnSiteWorker worker2 = new OnSiteWorker("Eliécer", "Chicott", 30);
 		
 		RemoteWorker worker3 = new RemoteWorker("Ernesto", "Gasia", 20);	
-		OnSiteWorker worker4 = new OnSiteWorker("Alejandro", "Gonzalez", 30, 150);
+		OnSiteWorker worker4 = new OnSiteWorker("Alejandro", "Gonzalez", 30);
 		
 		
-		 System.out.println(worker1.toString()  + " |salary: " + worker1.calculateSalary(100)); 
-		 System.out.println(worker2.toString()  + " |salary: " + worker2.calculateSalary(100)); 
+		 System.out.println(worker1 + " |salary: " + worker1.calculateSalary(100)); 
+		 System.out.println(worker2 + " |salary: " + worker2.calculateSalary(100)); 
 		 
-		 System.out.println(worker3.toString()  + " |salary: " + worker3.calculateSalary(150)); 
-		 System.out.println(worker4.toString()  + " |salary: " + worker4.calculateSalary(160)); 
+		 System.out.println(worker3  + " |salary: " + worker3.calculateSalary(150)); 
+		 System.out.println(worker4  + " |salary: " + worker4.calculateSalary(160)); 
 		 
 		 System.out.print("\n");
 		 
